@@ -1,0 +1,21 @@
+{
+  "name": "epam-at-fundamentals",
+  "version": "1.0.0",
+  "description": "EPAM Automated Testing in JavaScript - Fundamentals practical tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zynp-KC/epam-at-fundamentals-js.git"
+  },
+  "keywords": [],
+  "author": "Zeynep Kapacak",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/zynp-KC/epam-at-fundamentals-js/issues"
+  },
+  "homepage": "https://github.com/zynp-KC/epam-at-fundamentals-js#readme"
+}
