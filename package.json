@@ -4,7 +4,9 @@
   "description": "EPAM Automated Testing in JavaScript - Fundamentals practical tasks",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha",
+    "coverage": "c8 npm test",
+    "lint": "eslint ./ --fix"
   },
   "repository": {
     "type": "git",
@@ -17,5 +19,16 @@
   "bugs": {
     "url": "https://github.com/zynp-KC/epam-at-fundamentals-js/issues"
   },
-  "homepage": "https://github.com/zynp-KC/epam-at-fundamentals-js#readme"
+  "homepage": "https://github.com/zynp-KC/epam-at-fundamentals-js#readme",
+  "devDependencies": {
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0"
+  },
+  "dependencies": {
+    "c8": "^12.0.0",
+    "chai": "^4.5.0",
+    "mocha": "^12.0.3",
+    "mochawesome": "^8.1.1"
+  }
 }
